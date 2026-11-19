@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nivetha Sivakumar | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Nivi<span>.</span></h2>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section class="home" id="home">
+
+    <div class="home-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Nivetha Sivakumar</h1>
+
+        <h2>I'm a <span>Full Stack Developer</span></h2>
+
+        <p>
+            A passionate Information Technology student
+            interested in web development, programming
+            and modern technologies.
+        </p>
+
+        <div class="home-buttons">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#projects" class="btn btn-outline">
+                View Projects
+            </a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/nivetha000240-debug"
+               target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nivetha-sivakumar"
+               target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="home-image">
+        <div class="profile-circle">
+            <i class="fas fa-user-graduate"></i>
+        </div>
+    </div>
+
+</section>
+
+<!-- About Section -->
+<section class="about section" id="about">
+
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="about-content">
+
+        <h3>Information Technology Student</h3>
+
+        <p>
+            I am Nivetha Sivakumar, a third-year B.Tech
+            Information Technology student.
+
+            I am passionate about Full Stack Web Development
+            and continuously improving my programming skills.
+
+            I enjoy developing creative websites and
+            real-world applications using modern technologies.
+
+            My goal is to become a professional Full Stack Developer.
+        </p>
+
+        <div class="details">
+            <p><b>Name:</b> Nivetha Sivakumar</p>
+            <p><b>Degree:</b> B.Tech Information Technology</p>
+            <p><b>Year:</b> Third Year</p>
+            <p><b>Career:</b> Full Stack Developer</p>
+            <p><b>Location:</b> Erode, Tamil Nadu</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Skills Section -->
+<section class="skills section" id="skills">
+
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <div class="progress">
+                <div style="width:90%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <div class="progress">
+                <div style="width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <div class="progress">
+                <div style="width:75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+            <div class="progress">
+                <div style="width:80%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+            <div class="progress">
+                <div style="width:75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>C Programming</h3>
+            <div class="progress">
+                <div style="width:70%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-react"></i>
+            <h3>React.js</h3>
+            <div class="progress">
+                <div style="width:65%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+            <div class="progress">
+                <div style="width:65%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>MongoDB</h3>
+            <div class="progress">
+                <div style="width:60%"></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Projects Section -->
+<section class="projects section" id="projects">
+
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <i class="fas fa-globe"></i>
+
+            <h3>Domain Name Validation and DNS Lookup Tool</h3>
+
+            <p>
+                A web application that validates domain names
+                and performs DNS lookups to display DNS records
+                and error information.
+            </p>
+
+            <p class="tech">
+                HTML | CSS | JavaScript | Full Stack
+            </p>
+
+            <a href="https://domain-name-validation-eight.vercel.app/"
+               target="_blank" class="project-btn">
+                View Project
+            </a>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-comments"></i>
+
+            <h3>Real-Time Messaging Application</h3>
+
+            <p>
+                A real-time chat application that allows
+                users to register, login and exchange messages
+                with message validation.
+            </p>
+
+            <p class="tech">
+                React.js | Node.js | Express.js |
+                Socket.IO | MongoDB
+            </p>
+
+            <a href="https://github.com/nivetha000240-debug"
+               target="_blank" class="project-btn">
+                View Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-laptop-code"></i>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                A responsive personal portfolio website
+                to showcase my skills, projects,
+                education and achievements.
+            </p>
+
+            <p class="tech">
+                HTML | CSS | JavaScript
+            </p>
+
+            <a href="#home" class="project-btn">
+                View Portfolio
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Certificates Section -->
+<section class="certificates section" id="certificates">
+
+    <h2 class="heading">My <span>Certificates</span></h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+            <i class="fas fa-certificate"></i>
+            <h3>IoT Foundation</h3>
+            <p>Infosys Springboard</p>
+        </div>
+
+        <div class="certificate-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Python Course</h3>
+            <p>Python 3.4.3</p>
+        </div>
+
+        <div class="certificate-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Front-End Development</h3>
+            <p>Coursera</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section class="contact section" id="contact">
+
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-container">
+
+        <p><i class="fas fa-envelope"></i>
+            Email: your-email@gmail.com
+        </p>
+
+        <p><i class="fas fa-map-marker-alt"></i>
+            Location: Erode, Tamil Nadu
+        </p>
+
+        <p><i class="fab fa-linkedin"></i>
+            LinkedIn: Nivetha Sivakumar
+        </p>
+
+        <a href="mailto:your-email@gmail.com" class="btn">
+            Send Email
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>
+        © <span id="year"></span>
+        Nivetha Sivakumar. All Rights Reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+              </html>
+              
